@@ -1,0 +1,7 @@
+type Mutation {
+  createAccount(name: String!, email: String!, belong: String, rank: String): User!
+}
+
+type Query {
+  somthing: String!
+}
